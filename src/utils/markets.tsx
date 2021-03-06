@@ -62,7 +62,12 @@ export const USE_MARKETS: MarketInfo[] = [
     "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
     "quoteLabel": "SOL",
     "baseLabel": "CALI",
-  }
+  }, {
+    "name": "SRM/SOL",
+    "address": new PublicKey("jyei9Fpj2GtHLDDGgcuhDacxYLLiSyxU4TY7KxB2xai"),
+    "deprecated": false,
+    "programId": new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+  },
 ]
 
 // export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
