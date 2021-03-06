@@ -49,24 +49,12 @@ const _IGNORE_DEPRECATED = false;
 // DEVNET config - TODO: use_markets based on network
 export const USE_MARKETS: MarketInfo[] = [
   {
-    "name": "MIKETOKEN/USD",
-    "address": new PublicKey("Af642XDzzXBPLQ81wCruD66cqupZjxqsKSDCoGr84neb"),
-    "deprecated": false,
-    "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
-    "quoteLabel": "USD",
-    "baseLabel": "MIKETOKEN",
-  }, {
-    "name": "CALI/SOL",
-    "address": new PublicKey("HifjpcAA9M6HddX387VrMr6BCdVFW94rdv8MZ1AQ3xys"),
+    "name": "GAMESQUARE1/SOL",
+    "address": new PublicKey("HUTiPcRoZeBBU4UcF3evhKjw2jzxnZYFVmy9axTgtced"),
     "deprecated": false,
     "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
     "quoteLabel": "SOL",
-    "baseLabel": "CALI",
-  }, {
-    "name": "SRM/SOL",
-    "address": new PublicKey("jyei9Fpj2GtHLDDGgcuhDacxYLLiSyxU4TY7KxB2xai"),
-    "deprecated": false,
-    "programId": new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin")
+    "baseLabel": "GAMESQUARE1",
   },
 ]
 
@@ -202,7 +190,7 @@ const _SLOW_REFRESH_INTERVAL = 5 * 1000;
 const _FAST_REFRESH_INTERVAL = 1000;
 
 export const DEFAULT_MARKET = USE_MARKETS.find(
-  ({ name, deprecated }) => name === 'SRM/USDT' && !deprecated,
+  ({ name, deprecated }) => name === 'GAMESQUARE1/SOL' && !deprecated,
 );
 
 export function getMarketDetails(
