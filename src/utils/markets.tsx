@@ -50,7 +50,7 @@ const _IGNORE_DEPRECATED = false;
 export const USE_MARKETS: MarketInfo[] = [
   {
     "name": "GAMESQUARE1/SOL",
-    "address": new PublicKey("HUTiPcRoZeBBU4UcF3evhKjw2jzxnZYFVmy9axTgtced"),
+    "address": new PublicKey("6Jc7Hw6rjKvLEbYgdnLB6yW27hsxoKiXGyVkdABa9mu8"),
     "deprecated": false,
     "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
     "quoteLabel": "SOL",
