@@ -56,6 +56,53 @@ export const USE_MARKETS: MarketInfo[] = [
     "quoteLabel": "SOL",
     "baseLabel": "GAMESQUARE1",
   },
+
+  {
+    "name": "GAMESQUARE2/SOL",
+    "address": new PublicKey("GQ1kMSgQpQihuRBw8JoYA9HhfbdbDL1EKDd9CTDKyhWZ"),
+    "deprecated": false,
+    "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
+    "quoteLabel": "SOL",
+    "baseLabel": "GAMESQUARE2",
+  },
+
+  {
+    "name": "GAMESQUARE3/SOL",
+    "address": new PublicKey("BxcarCujDF5oXrCB61sZfTrnBXjUqxnH4zjQyizs7PLs"),
+    "deprecated": false,
+    "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
+    "quoteLabel": "SOL",
+    "baseLabel": "GAMESQUARE3",
+  },
+
+  {
+    "name": "GAMESQUARE4/SOL",
+    "address": new PublicKey("74UkvxKyxoLYQHPd86U57iqRMCFB2xq9Cbk8m2TRUkW5"),
+    "deprecated": false,
+    "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
+    "quoteLabel": "SOL",
+    "baseLabel": "GAMESQUARE4",
+  },
+
+  {
+    "name": "GAMESQUARE5/SOL",
+    "address": new PublicKey("DyKy51FVYXNz3U6rt6LFYotecZ9yJiWXgmWPYAt4uPQH"),
+    "deprecated": false,
+    "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
+    "quoteLabel": "SOL",
+    "baseLabel": "GAMESQUARE5",
+  },
+
+  {
+    "name": "GAMESQUARE6/SOL",
+    "address": new PublicKey("5PeH5yRxbbJpt2KA79KSvd5LPLBm41Md6vfYQ9GK4SBp"),
+    "deprecated": false,
+    "programId": new PublicKey("FG4zpk8FPP3R9K7JYZmgeUKCe6qMAsHgTncnMHJYJrxB"),
+    "quoteLabel": "SOL",
+    "baseLabel": "GAMESQUARE6",
+  },
+
+
 ]
 
 // export const USE_MARKETS: MarketInfo[] = _IGNORE_DEPRECATED
